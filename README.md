@@ -22,7 +22,7 @@ This project is a web application for a cryptocurrency platform built using Flas
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/cryptocurrency-project.git
+git clone https://github.com/divyeshvankar/cryptocurrencypython.git
 cd cryptocurrency-project
 ```
 
@@ -127,7 +127,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or suggestions, feel free to contact me at [your-email@example.com].
+For any questions or suggestions, feel free to contact me at [divyeshvankar.iitg@gmail.com].
 ```
 
 This README provides a comprehensive guide to your project, including its features, installation instructions, usage, and project structure. Adjust any details as necessary to better fit your project specifics.
