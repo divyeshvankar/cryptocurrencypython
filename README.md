@@ -47,7 +47,7 @@ Create a MySQL database and update the `config.py` file with your Razorpay crede
 create database crypto;
 use crypto;
 
--- This is for creating User Table: 
+-- This is for creating User Table which is automatically created: 
 CREATE TABLE users(name varchar(30),username varchar(30),email varchar(50), password varchar(100));
 
 
@@ -98,24 +98,22 @@ cryptocurrency-project/
 ## Usage
 
 ### Register
-
-Navigate to `/register` to create a new user account. Provide your name, email, username, and password.
+Click on GET STARTED NOW / REGISTER which navigate you to `/register` to create a new user account. Provide your name, email, username, and password this will automatically get you logged in and sent to `/dashboard`.
 
 ### Login
-
-Navigate to `/login` to log into your account using your username and password.
+Click on LOGIN which will navigate you to `/login` to log into your account using your username and password.
 
 ### Dashboard
 
-After logging in, you will be redirected to the dashboard (`/dashboard`), where you can view your balance and the current blockchain status.
+After logging in, you will be redirected to the dashboard (`/dashboard`), where you can view your balance and the current blockchain status. On this you will also see all type of transaction.
 
 ### Transactions
 
-Navigate to `/transaction` to send money to another user. Provide the recipient's username and the amount to send.
+Click on transaction which is on sidebar which will navigate you to `/transaction` to send money to another user. Provide the recipient's username and the amount to send.
 
 ### Buy Cryptocurrency
 
-Navigate to `/buy` to purchase cryptocurrency using Razorpay. Enter the amount you wish to buy and proceed with the payment. Upon successful payment, the purchased cryptocurrency will be credited to your account.
+Click on Buy which is on sidebar which will navigate you to `/buy` to purchase cryptocurrency using Razorpay. Enter the amount you wish to buy and proceed with the payment. Upon successful payment, the purchased cryptocurrency will be credited to your account.
 
 ## Blockchain
 
