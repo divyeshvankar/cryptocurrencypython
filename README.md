@@ -123,5 +123,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or suggestions, feel free to contact me at [divyeshvankar.iitg@gmail.com].
 ```
-
-This README provides a comprehensive guide to your project, including its features, installation instructions, usage, and project structure. Adjust any details as necessary to better fit your project specifics.
