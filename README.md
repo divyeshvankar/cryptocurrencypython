@@ -29,7 +29,7 @@ cd cryptocurrency-project
 ### Create and Activate a Virtual Environment
 
 ```bash
-python3 -m venv venv
+python -m venv venv
 source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 ```
 
@@ -41,16 +41,10 @@ pip install -r requirements.txt
 
 ### Configure MySQL
 
-Create a MySQL database and update the `config.py` file with your MySQL credentials.
+Create a MySQL database and update the `config.py` file with your Razorpay credentials.
 
 ```python
 # config.py
-MYSQL_HOST = 'localhost'
-MYSQL_USER = 'your_mysql_user'
-MYSQL_PASSWORD = 'your_mysql_password'
-MYSQL_DB = 'crypto'
-MYSQL_CURSORCLASS = 'DictCursor'
-SECRET_KEY = 'your_secret_key'
 RAZORPAY_KEY_ID = 'your_razorpay_key_id'
 RAZORPAY_KEY_SECRET = 'your_razorpay_key_secret'
 ```
