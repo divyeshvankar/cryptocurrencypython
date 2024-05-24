@@ -1,4 +1,3 @@
-```markdown
 # Cryptocurrency Project
 
 This project is a web application for a cryptocurrency platform built using Flask. It allows users to register, login, view their balance, and perform transactions. Additionally, users can buy the platform's cryptocurrency using Razorpay for payment processing.
