@@ -41,6 +41,20 @@ pip install -r requirements.txt
 ### Configure MySQL
 
 Create a MySQL database and update the `config.py` file with your Razorpay credentials.
+```sql
+\connect root@localhost
+\sql
+create database crypto;
+use crypto;
+
+-- This is for creating User Table: 
+CREATE TABLE users(name varchar(30),username varchar(30),email varchar(50), password varchar(100));
+
+
+-- This is for Blockchain Table which is automatically created:
+CREATE TABLE blockchain(number varchar(10), hash varchar(64), previous varchar(64), data varchar(100), nonce varchar(15));
+```
+
 
 ```python
 # config.py
