@@ -57,7 +57,7 @@ CREATE TABLE blockchain(number varchar(10), hash varchar(64), previous varchar(6
 
 
 ```python
-# config.py
+# config.py (Just go on Razorpay website create account and get this two things on that website)
 RAZORPAY_KEY_ID = 'your_razorpay_key_id'
 RAZORPAY_KEY_SECRET = 'your_razorpay_key_secret'
 ```
